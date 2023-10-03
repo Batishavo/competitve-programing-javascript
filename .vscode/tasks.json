@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Node JS Problem solving",
+      "type": "shell",
+      "command": "node",
+      "args": ["${file}", "<", "input.txt", ">", "output.txt"],
+      "problemMatcher":[],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+  
+  ]
+}

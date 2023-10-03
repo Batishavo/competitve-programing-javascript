@@ -20,6 +20,6 @@ process.stdin.on('end',_=>{
 })
 
 function main(){
-    const name = readLine()
-    console.log(name)
+    const name = readLine();
+    console.log(name);
 }
